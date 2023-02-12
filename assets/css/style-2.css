@@ -33,6 +33,10 @@
     -webkit-transform: rotateX(-10deg);
             transform: rotateX(-10deg);
             z-index: 100;
+      
+    audio {
+      display: none;
+    }      
   }
   
   #drag-container img, #drag-container video {
