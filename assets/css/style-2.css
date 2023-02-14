@@ -33,10 +33,6 @@
     -webkit-transform: rotateX(-10deg);
             transform: rotateX(-10deg);
             z-index: 100;
-      
-    audio {
-      display: none;
-    }      
   }
   
   #drag-container img, #drag-container video {
@@ -161,4 +157,23 @@ p {
     font-family: 'Rampart One', cursive;
     font-size: 4vw;
     
+}
+
+.audio-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .audio-container {
+    top: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .audio-container {
+    top: 30%;
+  }
 }
